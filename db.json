@@ -1,0 +1,42 @@
+{
+  "menuItems": [
+    { "id": 1, "text": "Cari di halaman", "icon": "Search", "adminOnly": false },
+    { "id": 2, "text": "Zoom", "icon": "ZoomIn", "adminOnly": false },
+    { "id": 3, "text": "Bagikan", "icon": "Share", "adminOnly": false },
+    { "id": 4, "text": "Terjemahkan", "icon": "Translate", "adminOnly": false },
+    { "id": 5, "text": "Situs desktop", "icon": "DesktopWindows", "adminOnly": false },
+    { "id": 6, "text": "Block ads", "icon": "Block", "adminOnly": true },
+    { "id": 7, "text": "Turn on night mode", "icon": "Nightlight", "adminOnly": false },
+    { "id": 8, "text": "Developer tools", "icon": "DeveloperMode", "adminOnly": true },
+    { "id": 9, "text": "Setelan", "icon": "Settings", "adminOnly": false },
+    { "id": 10, "text": "Clear data", "icon": "Clear", "adminOnly": true },
+    { "id": 11, "text": "Exit", "icon": "ExitToApp", "adminOnly": false }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123",
+      "email": "admin@example.com",
+      "nama": "Admin",
+      "kontak": "08123456789",
+      "umur": 35,
+      "fotoProfil": "admin-photo-url",
+      "saldo": 1000000,
+      "isAdmin": true
+    },
+    {
+      "id": 2,
+      "username": "user",
+      "password": "user123",
+      "email": "user@example.com",
+      "nama": "User Biasa",
+      "kontak": "08123456780",
+      "umur": 25,
+      "fotoProfil": "user-photo-url",
+      "saldo": 500000,
+      "isAdmin": false
+    }
+  ]
+}
+
